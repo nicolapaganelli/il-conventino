@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Conventino - Agriturismo Montepulciano</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Il Conventino</div>
+            <ul class="nav-links">
+                <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                <li><a href="#features" data-i18n="nav.features">Ausstattung</a></li>
+                <li><a href="#gallery" data-i18n="nav.gallery">Galerie</a></li>
+                <li><a href="#location" data-i18n="nav.location">Lage</a></li>
+                <li><a href="#pricing" data-i18n="nav.pricing">Preise</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Kontakt</a></li>
+            </ul>
+            <div class="language-switcher">
+                <button class="current-lang">
+                    <img src="https://flagcdn.com/24x18/de.png" alt="Deutsch" class="lang-flag">
+                    <span>DE</span>
+                </button>
+                <ul class="lang-dropdown">
+                    <li data-lang="de">
+                        <img src="https://flagcdn.com/24x18/de.png" alt="Deutsch" class="lang-flag">
+                        <span>Deutsch</span>
+                    </li>
+                    <li data-lang="en">
+                        <img src="https://flagcdn.com/24x18/gb.png" alt="English" class="lang-flag">
+                        <span>English</span>
+                    </li>
+                    <li data-lang="fr">
+                        <img src="https://flagcdn.com/24x18/fr.png" alt="Français" class="lang-flag">
+                        <span>Français</span>
+                    </li>
+                    <li data-lang="it">
+                        <img src="https://flagcdn.com/24x18/it.png" alt="Italiano" class="lang-flag">
+                        <span>Italiano</span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>AGRITURISMO IL CONVENTINO</h1>
+            <h2>MONTEPULCIANO</h2>
+            <p>Erleben Sie unsere Appartements mit Pool und den Zauber der Toskana</p>
+            <a href="#contact" class="cta-button">Jetzt Buchen</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Exklusive Wohnungen</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-home"></i>
+                <h3>Traditionelle Architektur</h3>
+                <p>Authentisches toskanisches Steinhaus</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-swimming-pool"></i>
+                <h3>Infinity Pool</h3>
+                <p>Genießen Sie unseren modernen Pool mit Panoramablick</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-tree"></i>
+                <h3>Olivenhain</h3>
+                <p>Umgeben von Olivenbäumen und mediterraner Vegetation</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-wine-bottle"></i>
+                <h3>Weinregion</h3>
+                <p>Im Herzen des Montepulciano Weingebiets</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Bildergalerie</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item main-image">
+                <img src="hero-image.jpg" alt="Il Conventino Hauptansicht" loading="lazy">
+                <div class="gallery-caption">
+                    <h3>Il Conventino</h3>
+                    <p>Traditionelles toskanisches Steinhaus mit Pool</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="hero-image.jpg" alt="Il Conventino Pool" loading="lazy">
+                <div class="gallery-caption">
+                    <h3>Infinity Pool</h3>
+                    <p>Entspannung mit Panoramablick</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="hero-image.jpg" alt="Il Conventino Garten" loading="lazy">
+                <div class="gallery-caption">
+                    <h3>Mediterraner Garten</h3>
+                    <p>Olivenbäume und toskanische Vegetation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="location">
+        <h2>Lage</h2>
+        <div class="location-content">
+            <div class="map-container">
+                <!-- Map will be added here -->
+            </div>
+            <div class="location-details">
+                <h3>Montepulciano, Toskana</h3>
+                <p>Genießen Sie Ihren Aufenthalt in einer der schönsten Regionen Italiens, bekannt für Wein, Kultur und atemberaubende Landschaften.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <h2>Preise & Verfügbarkeit</h2>
+        <div class="pricing-content">
+            <div class="price-card">
+                <h3>Exklusiv-Wohnungen</h3>
+                <p class="price">€140/Nacht</p>
+                <ul>
+                    <li>Willkommensgeschenk inklusive</li>
+                    <li>Pool-Zugang</li>
+                    <li>Authentisches Ambiente</li>
+                    <li>Vollausgestattete Wohnung</li>
+                </ul>
+                <a href="#contact" class="book-button">Jetzt Buchen</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Kontakt</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Nachricht" required></textarea>
+                <button type="submit" class="submit-button">Nachricht Senden</button>
+            </form>
+            <div class="contact-info">
+                <h3>Kontaktieren Sie uns</h3>
+                <p><i class="fas fa-phone"></i> Manon: (+39) 371 649 5362</p>
+                <p><i class="fas fa-phone"></i> Ruben: (+39) 351 648 2555</p>
+                <p><i class="fas fa-envelope"></i> cantarane@lilo.org</p>
+                <p><i class="fas fa-map-marker-alt"></i> Montepulciano, Toskana, Italien</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Il Conventino</h3>
+                <p>Ihr exklusives Zuhause in der Toskana</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Ausstattung</a></li>
+                    <li><a href="#gallery">Galerie</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Il Conventino Agriturismo. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
