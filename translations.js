@@ -49,7 +49,9 @@ const translations = {
         location: {
             title: "Lage",
             subtitle: "Montepulciano, Toskana",
-            desc: "Genießen Sie Ihren Aufenthalt in einer der schönsten Regionen Italiens, bekannt für Wein, Kultur und atemberaubende Landschaften."
+            description: "Genießen Sie Ihren Aufenthalt in einer der schönsten Regionen Italiens, bekannt für Wein, Kultur und atemberaubende Landschaften.",
+            address: "4R58+2H, 53045 Montepulciano SI, Italy",
+            directions: "Wegbeschreibung"
         },
         pricing: {
             title: "Preise & Verfügbarkeit",
@@ -134,7 +136,9 @@ const translations = {
         location: {
             title: "Location",
             subtitle: "Montepulciano, Tuscany",
-            desc: "Enjoy your stay in one of Italy's most beautiful regions, known for wine, culture, and breathtaking landscapes."
+            description: "Enjoy your stay in one of Italy's most beautiful regions, known for wine, culture, and breathtaking landscapes.",
+            address: "4R58+2H, 53045 Montepulciano SI, Italy",
+            directions: "Get Directions"
         },
         pricing: {
             title: "Pricing & Availability",
@@ -219,7 +223,9 @@ const translations = {
         location: {
             title: "Emplacement",
             subtitle: "Montepulciano, Toscane",
-            desc: "Profitez de votre séjour dans l'une des plus belles régions d'Italie, connue pour son vin, sa culture et ses paysages à couper le souffle."
+            description: "Profitez de votre séjour dans l'une des plus belles régions d'Italie, connue pour son vin, sa culture et ses paysages à couper le souffle.",
+            address: "4R58+2H, 53045 Montepulciano SI, Italy",
+            directions: "Itinéraire"
         },
         pricing: {
             title: "Tarifs & Disponibilités",
@@ -304,7 +310,9 @@ const translations = {
         location: {
             title: "Posizione",
             subtitle: "Montepulciano, Toscana",
-            desc: "Goditi il tuo soggiorno in una delle regioni più belle d'Italia, famosa per il vino, la cultura e i paesaggi mozzafiato."
+            description: "Goditi il tuo soggiorno in una delle regioni più belle d'Italia, famosa per il vino, la cultura e i paesaggi mozzafiato.",
+            address: "4R58+2H, 53045 Montepulciano SI, Italy",
+            directions: "Indicazioni stradali"
         },
         pricing: {
             title: "Prezzi & Disponibilità",

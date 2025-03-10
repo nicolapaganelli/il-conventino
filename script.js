@@ -11,13 +11,17 @@ function updateContent(lang) {
         const keys = element.dataset.i18n.split('.');
         let value = translations[lang];
         keys.forEach(key => {
-            value = value[key];
+            if (value) {
+                value = value[key];
+            }
         });
         
-        if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
-            element.placeholder = value;
-        } else {
-            element.textContent = value;
+        if (value) {
+            if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                element.placeholder = value;
+            } else {
+                element.textContent = value;
+            }
         }
     });
 
