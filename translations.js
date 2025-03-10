@@ -50,7 +50,7 @@ const translations = {
             title: "Lage",
             subtitle: "Montepulciano, Toskana",
             description: "Genießen Sie Ihren Aufenthalt in einer der schönsten Regionen Italiens, bekannt für Wein, Kultur und atemberaubende Landschaften.",
-            address: "4R58+2H, 53045 Montepulciano SI, Italy",
+            address: "Strada del Conventino, 1, 53045 Montepulciano SI, Italy",
             directions: "Wegbeschreibung"
         },
         pricing: {
@@ -137,7 +137,7 @@ const translations = {
             title: "Location",
             subtitle: "Montepulciano, Tuscany",
             description: "Enjoy your stay in one of Italy's most beautiful regions, known for wine, culture, and breathtaking landscapes.",
-            address: "4R58+2H, 53045 Montepulciano SI, Italy",
+            address: "Strada del Conventino, 1, 53045 Montepulciano SI, Italy",
             directions: "Get Directions"
         },
         pricing: {
@@ -224,7 +224,7 @@ const translations = {
             title: "Emplacement",
             subtitle: "Montepulciano, Toscane",
             description: "Profitez de votre séjour dans l'une des plus belles régions d'Italie, connue pour son vin, sa culture et ses paysages à couper le souffle.",
-            address: "4R58+2H, 53045 Montepulciano SI, Italy",
+            address: "Strada del Conventino, 1, 53045 Montepulciano SI, Italy",
             directions: "Itinéraire"
         },
         pricing: {
@@ -311,7 +311,7 @@ const translations = {
             title: "Posizione",
             subtitle: "Montepulciano, Toscana",
             description: "Goditi il tuo soggiorno in una delle regioni più belle d'Italia, famosa per il vino, la cultura e i paesaggi mozzafiato.",
-            address: "4R58+2H, 53045 Montepulciano SI, Italy",
+            address: "Strada del Conventino, 1, 53045 Montepulciano SI, Italy",
             directions: "Indicazioni stradali"
         },
         pricing: {
