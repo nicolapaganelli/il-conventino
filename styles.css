@@ -417,11 +417,32 @@ nav {
 
 .contact-info p {
     margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .contact-info i {
-    margin-right: 0.5rem;
     color: var(--secondary-color);
+}
+
+.contact-flag {
+    width: 16px;
+    height: 12px;
+    margin-left: 4px;
+    border-radius: 2px;
+}
+
+.whatsapp-link {
+    color: #25D366;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+    margin-left: 4px;
+}
+
+.whatsapp-link:hover {
+    opacity: 0.8;
 }
 
 .directions-link {
